@@ -28,5 +28,12 @@ namespace Company.Controllers
 
             return View();
         }
+        public ActionResult ViewService()
+        {
+            ViewBag.Message = "View Service";
+
+            return View();
+        }
+
     }
 }
